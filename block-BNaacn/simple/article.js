@@ -8,4 +8,4 @@ let articleSchema = new Schema({
     createdAt:{type:Date,default: new Date()},
     likes:{type:Number,default:0}
 })
-module.exports=mongoose.model("User",articleSchema)
+module.exports=mongoose.model("Article",articleSchema)
