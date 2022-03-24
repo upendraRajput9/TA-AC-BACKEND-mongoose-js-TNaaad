@@ -8,4 +8,4 @@ let addressSchema = new Schema({
     pin:Number,
     user:Schema.Types.ObjectId
 })
-module.exports=mongoose.model("User",addressSchema)
+module.exports=mongoose.model("Address",addressSchema)
