@@ -7,5 +7,8 @@ var articleSchema = new Schema({
     description:String,
     tags:String,
     likes:Number,
+    author: Schema.Types.ObjectId,
     comments:Number
 },{timestamps:true})
+
+module.exports = mongoose.model("Articles",articleSchema)
