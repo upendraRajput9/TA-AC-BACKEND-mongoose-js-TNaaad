@@ -7,3 +7,5 @@ var commentSchema = new Schema({
     author: Schema.Types.ObjectId,
     article:String,
 },{timestamps:true})
+
+module.exports= mongoose.model('Comment',commentSchema)
